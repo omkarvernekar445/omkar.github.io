@@ -1,0 +1,48 @@
+.button {
+    display: flex;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+}
+
+#no {
+    background-color: rgb(255, 63, 5);
+    color: white;
+}
+
+#yes {
+    background-color: rgb(14, 211, 14);
+    color: white;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./couple-3581038_1280.webp) center/cover no-repeat fixed;
+    font: 1em/1.618 inter, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    height: 200px;
+    padding: 35px;
+    font-size: 15px;
+    color: #4e4e4e;
+    border: 1px solid rgb(104, 101, 101);
+    border-radius: 20px;
+    background-color: rgba(232, 229, 236, 0.877);
+    box-shadow: 0 0 10px;
+}
